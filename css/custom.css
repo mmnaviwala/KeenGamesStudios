@@ -40,7 +40,7 @@ body {
 
 .fancy_background {
 	background: ##000baa;
-	background-image: url("../images/zenbg-1.png"), url("../images/zenbg-2.png");
+	background-image: url("../images/ZenBG-1.png"), url("../images/ZenBG-2.png");
 	background-repeat: repeat-x, repeat;
 	color: white;
 }
