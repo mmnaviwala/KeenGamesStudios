@@ -1,12 +1,13 @@
 /*html {
 	height: 100%;
 	width: 100%;
-	  overflow: hidden;
+	overflow: hidden;
 	min-width: 100%;
 	min-height: 100%;
 }
+*/
 
-body {
+/*body {
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -17,10 +18,16 @@ body {
 	height:100%;
 	display:table;
 	width: 100%;
-	padding: 0;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
 }
 
-.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+.row-fluid {
+	height: 100%; 
+	display:table-cell; 
+	vertical-align: middle;
+}
 
 .centering {
 	float:none;
