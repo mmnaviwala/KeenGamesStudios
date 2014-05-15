@@ -25,7 +25,7 @@
 
 	<body>
 
-		<div class="site-wrapper fancy_background_animated">
+		<div class="site-wrapper fancy_background parallax" data-velocity="0.8">
 
 			<div class="site-wrapper-inner">
 
@@ -198,7 +198,7 @@
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/jquery.scrolly.js"></script>
 			<script>
-			$(document).ready(function () {
+				$(document).ready(function () {
 				var menu = $('.navbar');
 				var origOffsetY = menu.offset().top;
 				function scroll() {
@@ -210,6 +210,32 @@
 				}
 				document.onscroll = scroll;
 			});
+			</script>
+			<script>
+			    $(document).ready(function(){
+			       $('.parallax').scrolly({bgParallax: true});
+			    });
+			</script>
+			<script>
+			(function($) {
+			    var $window = $(window),
+			        $html = $('.site-wrapper');
+
+			    function resize() {
+			        if ($window.width() > 540) {
+			            $html.addClass('fancy_background_animated');
+									$html.removeClass('fancy_background');
+			        }
+							else {
+			        	$html.removeClass('fancy_background_animated');
+								$html.addClass('fancy_background');
+							}
+			    }
+
+			    $window
+			        .resize(resize)
+			        .trigger('resize');
+			})(jQuery);
 			</script>
 		</body>
 		</html>
