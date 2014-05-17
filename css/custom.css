@@ -115,6 +115,11 @@ html{
 		color: white;	
 }
 
+/* Logo hex colors
+#1c1155
+#15148a
+*/
+
 .fancy_background_navbar {
 	background-repeat: repeat;
 	background: 
@@ -133,7 +138,6 @@ html{
 }
 
 .fancy_background_navbar .navbar-toggle {
-/*	background-color: #FFFFFF;*/
 	border-color: #FFFFFF;
 }
 
@@ -141,8 +145,8 @@ html{
   background-color: #FFFFFF;
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
+.fancy_background_navbar .navbar-toggle:hover,
+.fancy_background_navbar .navbar-toggle:focus {
   background-color: #462bd4;
 }
 
