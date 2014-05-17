@@ -115,7 +115,7 @@ html{
 	color: white;
 }
 
-.fancy_background {
+/*.fancy_background {
 	background-repeat: repeat;
 	background: 
 	linear-gradient(
@@ -124,14 +124,26 @@ html{
 		),
 		url(../images/gplay.png);
 		color: white;	
+}*/
+
+.fancy_background{
+	background-repeat:repeat;
+	/*linear-gradient*/
+	background:-webkit-gradient(linear,left top,left bottom,from(rgba(21,20,138,0.7)),to(rgba(28,17,85,0.7)));
+	background:-webkit-linear-gradient(	rgba(21,20,138,0.7), 	rgba(28,17,85,0.7)	), url("../images/gplay.png");
+	background:   -moz-linear-gradient(	rgba(21,20,138,0.7), 	rgba(28,17,85,0.7)	), url("../images/gplay.png");
+	background:     -o-linear-gradient(	rgba(21,20,138,0.7), 	rgba(28,17,85,0.7)	), url("../images/gplay.png");
+	background:        linear-gradient(	rgba(21,20,138,0.7), 	rgba(28,17,85,0.7)	), url("../images/gplay.png");
+	color:white;
 }
+
 
 /* Logo hex colors
 #1c1155
 #15148a
 */
 
-.fancy_background_navbar {
+/*.fancy_background_navbar {
 	background-repeat: repeat;
 	background: 
 	linear-gradient(
@@ -140,6 +152,17 @@ html{
 		),
 		url(../images/gplay.png);
 		color: white;	
+}*/
+
+.fancy_background_navbar {
+	background-repeat:repeat;
+	/*linear-gradient*/
+	background:-webkit-gradient(linear,left top,left bottom,from(rgba(21,20,138,1)),to(rgba(28,17,85,1)));
+	background:-webkit-linear-gradient(	rgba(21,20,138,1), 	rgba(28,17,85,1)	), url("../images/gplay.png");
+	background:   -moz-linear-gradient(	rgba(21,20,138,1), 	rgba(28,17,85,1)	), url("../images/gplay.png");
+	background:     -o-linear-gradient(	rgba(21,20,138,1), 	rgba(28,17,85,1)	), url("../images/gplay.png");
+	background:        linear-gradient(	rgba(21,20,138,1), 	rgba(28,17,85,1)	), url("../images/gplay.png");
+	color:white;
 }
 
 .fancy_background_navbar .navbar-brand {
@@ -185,12 +208,17 @@ html{
 	-webkit-animation: hue 120s infinite linear;
 	
 	background-repeat: repeat;
-	background: 
+/*	background: 
 	linear-gradient(
 		rgba(194, 54, 11, 0.70), 
 		rgba(234, 136, 1, 0.70)
 		),
-		url(../images/gplay.png);
+		url(../images/gplay.png);*/
+		background:-webkit-gradient(linear,left top,left bottom,from(rgba(194, 54, 11, 0.70)),to(rgba(234, 136, 1, 0.70)));
+		background:-webkit-linear-gradient(	rgba(194,54,11,0.70), 	rgba(234,136,1,0.70)	), url("../images/gplay.png");
+		background:   -moz-linear-gradient(	rgba(194,54,11,0.70), 	rgba(234,136,1,0.70)	), url("../images/gplay.png");
+		background:     -o-linear-gradient(	rgba(194,54,11,0.70), 	rgba(234,136,1,0.70)	), url("../images/gplay.png");
+		background:        linear-gradient(	rgba(194,54,11,0.70), 	rgba(234,136,1,0.70)	), url("../images/gplay.png");
 		color: white;
 	
 }
