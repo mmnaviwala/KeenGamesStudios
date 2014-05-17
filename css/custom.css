@@ -34,6 +34,18 @@
 	overflow: hidden;
 }
 
+html{
+	/*background: rgba(255,255,255,1);
+	background-image: url("../images/gplay.png");*/
+	background: 
+	linear-gradient(
+		rgba(255,255,255,0.5), 
+		rgba(255,255,255,0.5)
+		),
+		url(../images/gplay.png);
+	background-repeat: repeat;
+}
+
 .row-fluid {
 	height: 100%; 
 	display:table-cell; 
@@ -54,13 +66,6 @@
 	padding: 0px;
 	margin: 0px;
 	text-transform: uppercase;
-}
-
-.fancy_background {
-	background: ##000baa;
-	background-image: url("../images/ZenBG-1.png"), url("../images/ZenBG-2.png");
-	background-repeat: repeat-x, repeat;
-	color: white;
 }
 
 .animated_delay {
@@ -92,6 +97,70 @@
 
 
 /* ****************************************************************** */
+.fancy_background_2_images {
+	background: #000baa;
+	background-image: url("../images/ZenBG-1.png"), url("../images/ZenBG-2.png");
+	background-repeat: repeat-x, repeat;
+	color: white;
+}
+
+.fancy_background {
+	background-repeat: repeat;
+	background: 
+	linear-gradient(
+		rgba(21,20,138,0.7), 
+		rgba(28,17,85,0.7)
+		),
+		url(../images/gplay.png);
+		color: white;	
+}
+
+.fancy_background_navbar {
+	background-repeat: repeat;
+	background: 
+	linear-gradient(
+		rgba(21,20,138,1), 
+		rgba(28,17,85,1)
+		),
+		url(../images/gplay.png);
+		color: white;	
+}
+
+.fancy_background_navbar .navbar-brand {
+	color: #FFFFFF;
+	font-weight: bold;
+	letter-spacing:2px;
+}
+
+.fancy_background_navbar .navbar-toggle {
+/*	background-color: #FFFFFF;*/
+	border-color: #FFFFFF;
+}
+
+.fancy_background_navbar .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+
+.fancy_background_navbar .nav>li>a:link {
+	color: #FFFFFF;
+}      
+.fancy_background_navbar .nav>li>a:visited {
+	color: #FFFFFF;
+}
+.fancy_background_navbar .nav>li>a:hover {
+	color: #1c1155;
+	background: #FFFFFF;
+}
+.fancy_background_navbar .nav>li>a:active {
+	color: #FFFFFF;
+	background: #462bd4;
+} 
+
+.fancy_background_navbar .navbar-nav>.active>a, .fancy_background_navbar .navbar-nav>.active>a:hover, .fancy_background_navbar .navbar-nav>.active>a:focus {
+	color: #FFFFFF;
+	background: #462bd4;
+} 
+
 .fancy_background_animated {
 	-webkit-animation: hue 120s infinite linear;
 	
@@ -105,7 +174,8 @@
 		color: white;
 	
 }
-	
+/*rgba(194, 54, 11, 0.70), 
+rgba(234, 136, 1, 0.70)*/
 /*rgba(243, 86, 38, 0.70), 
 rgba(254, 171, 58, 0.70)*/
 	
