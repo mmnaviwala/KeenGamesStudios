@@ -141,6 +141,11 @@ html{
   background-color: #FFFFFF;
 }
 
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #462bd4;
+}
+
 .fancy_background_navbar .nav>li>a:link {
 	color: #FFFFFF;
 }      
