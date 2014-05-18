@@ -315,7 +315,13 @@ div.product-chooser div.product-chooser-item input{
 }
 /* ****************************************************************** */
 .portfolio-item {
-	margin-bottom: 25px;
+	margin-bottom: 30px;
+}
+
+.portfolio-item img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
