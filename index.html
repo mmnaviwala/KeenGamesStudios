@@ -515,37 +515,41 @@
 				<hr><br>
 				<br>
 				
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-						<input class="form-control" name="firstname" placeholder="Firstname" type="text" required />
+				<form method="post" action="http://getsimpleform.com/messages?form_api_token=10b33ff210ef2ed0f9958e85ac4c785b">
+					<input type='hidden' name='subject' value='Message sent from KeenGamesStudios mmnaviwala.com' />
+					<input type='hidden' name='redirect_to' value='http://mmnaviwala.com/KeenGamesStudios/' />
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+							<input class="form-control" name="firstname" placeholder="Firstname" type="text" required />
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
+							<input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
+						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6" style="padding-bottom: 10px;">
-						<input class="form-control" name="lastname" placeholder="Lastname" type="text" required />
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+							<input class="form-control" name="email" placeholder="E-mail" type="text" required />
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-						<input class="form-control" name="email" placeholder="E-mail" type="text" required />
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
+							<input class="form-control" name="subject" placeholder="Subject" type="text" required />
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12" style="padding-bottom: 10px;">
-						<input class="form-control" name="subject" placeholder="Subject" type="text" required />
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<textarea style="resize:vertical;" class="form-control" placeholder="Message..." rows="6" name="comment" required></textarea>
+					<div class="row">
+						<br>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<input type="submit" class="btn btn-primary btn-block" value="Send"/>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<br>
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<input type="submit" class="btn btn-primary btn-block" value="Send"/>
-					</div>
-				</div>
-				
+				</form>	
 			</div>
+			
 			
 			
 		</div><!-- /.container -->
